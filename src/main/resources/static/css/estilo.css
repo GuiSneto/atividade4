@@ -1,0 +1,100 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+p {
+    text-align: justify;
+}
+
+nav {
+	background-color:rgba(248,248,250,1);
+}
+nav .container {
+	width:900px;
+	height:100px;
+	margin-top:0px;
+	
+}
+.capa {
+	width:900px;
+	height:350px;
+}
+.corpo{
+	width:900px;
+	height:100%;
+	
+}
+
+nav {
+	border-top:10px solid rgba(109,120,168,1);
+	
+	
+}
+nav .logo{
+    font-size:50px;
+    font-family: fantasy;
+    color: rgba(109,120,168,1);
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+#fontmenu {
+	color:rgba(109,120,168,1);
+	font-weight:bold;	
+}
+#fontmenu:hover {
+	color:rgba(109,120,168,1);
+	font-weight:bold;	
+	font-size:17px;
+}
+.divisor {
+	width: 1px;
+	background:rgba(109,120,168,1);
+	margin: 12px 15px;
+}
+.collapse {
+	background-color:rgba(248,248,250,1);
+	border-radius:10px;
+	
+}
+
+.ptext {
+	text-align:justify;
+}
+
+footer {
+	height:120px;
+	background-color:rgba(248,248,250,1);
+	padding-bottom:0px;
+}
+main p {
+	text-align:justify;
+}
+footer p {
+	text-align:center;
+	padding-top:40px;
+	font-weight:bold;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+.container {
+		width:100%;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.container {
+		width:100%;
+	}
+
+
+}
+
